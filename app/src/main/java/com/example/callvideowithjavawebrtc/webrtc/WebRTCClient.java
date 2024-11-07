@@ -10,7 +10,6 @@ import org.webrtc.AudioSource;
 import org.webrtc.AudioTrack;
 import org.webrtc.Camera2Enumerator;
 import org.webrtc.CameraVideoCapturer;
-import org.webrtc.DataChannel;
 import org.webrtc.DefaultVideoDecoderFactory;
 import org.webrtc.DefaultVideoEncoderFactory;
 import org.webrtc.EglBase;
@@ -22,14 +21,13 @@ import org.webrtc.PeerConnectionFactory;
 import org.webrtc.SessionDescription;
 import org.webrtc.SurfaceTextureHelper;
 import org.webrtc.SurfaceViewRenderer;
-import org.webrtc.VideoSink;
 import org.webrtc.VideoSource;
 import org.webrtc.VideoTrack;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class WebRTCClient {
+public class WebRTCClient{
     private final Context context;
     private final String username;
     private EglBase.Context eglBaseContext = EglBase.create().getEglBaseContext();
@@ -51,7 +49,7 @@ public class WebRTCClient {
 
     //negotiation section like call and answer
     private MediaConstraints mediaConstraints = new MediaConstraints();
-    private  Listener listener;
+    public Listener listener;
     private final Gson gson = new Gson();
 
     public WebRTCClient(Context context, PeerConnection.Observer observer, String username) {

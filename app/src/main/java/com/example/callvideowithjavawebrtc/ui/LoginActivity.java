@@ -30,6 +30,7 @@ public class LoginActivity extends AppCompatActivity {
             //login to firebase here
             mainRepository.login(
                     views.username.getText().toString(),
+                    getApplicationContext(),
                     () -> {
                          //if success then we want to move to call activity
                         startActivity(new Intent(LoginActivity.this, CallActivity.class));
