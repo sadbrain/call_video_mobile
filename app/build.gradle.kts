@@ -48,4 +48,5 @@ dependencies {
     implementation("com.google.firebase:firebase-database-ktx:21.0.0")
     implementation("com.mesibo.api:webrtc:1.0.5")
     implementation("com.google.code.gson:gson:2.10.1")
+    implementation("com.guolindev.permissionx:permissionx:1.7.1")
 }
