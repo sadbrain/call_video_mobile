@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "1045778026655",
+    "firebase_url": "https://callvideowithjavawebrtc-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "callvideowithjavawebrtc",
+    "storage_bucket": "callvideowithjavawebrtc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1045778026655:android:87cc6d87002fa4528592aa",
+        "android_client_info": {
+          "package_name": "com.example.callvideowithjavawebrtc"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXbpnBhxIHyl6CbrEdswu8jrj8CLc_eRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
